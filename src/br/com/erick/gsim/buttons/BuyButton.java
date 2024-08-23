@@ -1,9 +1,11 @@
-package br.com.erick.msim;
+package br.com.erick.gsim.buttons;
 
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
 import javax.swing.JButton;
+
+import br.com.erick.gsim.production_utilities.ProductionUnity;
 
 public class BuyButton extends JButton implements MouseListener{
 

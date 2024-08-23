@@ -1,4 +1,4 @@
-package br.com.erick.msim;
+package br.com.erick.gsim.main;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -15,7 +15,13 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JProgressBar;
 
-import br.com.erick.msim.SectionButton.panels;
+import br.com.erick.gsim.buttons.ImprovementButton;
+import br.com.erick.gsim.buttons.ManagerButton;
+import br.com.erick.gsim.buttons.ProductionButton;
+import br.com.erick.gsim.buttons.SectionButton;
+import br.com.erick.gsim.buttons.SectionButton.panels;
+import br.com.erick.gsim.observer_p.LabelListener;
+import br.com.erick.gsim.production_utilities.ProductionUnity;
 
 @SuppressWarnings("serial")
 public class MainWindow extends JFrame{

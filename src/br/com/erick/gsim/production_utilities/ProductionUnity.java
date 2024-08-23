@@ -1,4 +1,4 @@
-package br.com.erick.msim;
+package br.com.erick.gsim.production_utilities;
 
 import java.awt.Component;
 import java.awt.GridBagConstraints;
@@ -7,6 +7,11 @@ import java.util.List;
 
 import javax.swing.JPanel;
 
+import br.com.erick.gsim.buttons.BuyButton;
+import br.com.erick.gsim.main.MainWindow;
+import br.com.erick.gsim.observer_p.LabelListener;
+
+@SuppressWarnings("serial")
 public class ProductionUnity extends JPanel implements LabelListener{
 	
 	private MainWindow mainWindow;

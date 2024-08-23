@@ -1,10 +1,13 @@
-package br.com.erick.msim;
+package br.com.erick.gsim.buttons;
 
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
 import javax.swing.JButton;
 import javax.swing.JProgressBar;
+
+import br.com.erick.gsim.main.MainWindow;
+import br.com.erick.gsim.production_utilities.ProductionThread;
 
 public class ProductionButton extends JButton implements MouseListener{
 	
